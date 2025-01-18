@@ -39,7 +39,7 @@ const TemperatureConverter = ({title}) => {
         <TextField
           fullWidth
           
-          label="Температура в Фаренгейта"
+          label="Температура в Фаренгейтах"
           id="fahrenheit"
           onChange={handleFahrenheitChange}
           value={fahrenheit}
